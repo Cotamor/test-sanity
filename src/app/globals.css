@@ -15,13 +15,14 @@ a {
   text-decoration: none;
 }
 
-.main {
-  min-height: calc(100vh - 70px);
+.container {
+  min-height: 100vh;
   max-width: 1400px;
-  width: 100%;
   margin: 0 auto;
-  padding: 70px 40px 0px;
-  /* background-color: rgba(47, 79, 79, 0.731); */
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .gradient_hawaii {

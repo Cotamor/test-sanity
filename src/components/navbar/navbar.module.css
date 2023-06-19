@@ -1,16 +1,10 @@
 .container {
-  width: 100%;
-  background-color: goldenrod;
-}
-.wrapper {
   height: 70px;
-  margin: 0 auto;
-  max-width: 1400px;
-  padding: 0 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   font-size: 30px;
   font-weight: bold;

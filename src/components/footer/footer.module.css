@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: 50px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+.copy {
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link {
+  cursor: pointer;
+}
