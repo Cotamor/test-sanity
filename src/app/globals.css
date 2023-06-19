@@ -14,3 +14,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.main {
+  min-height: calc(100vh - 70px);
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px 40px 0px;
+  /* background-color: rgba(47, 79, 79, 0.731); */
+}
+
+.gradient_hawaii {
+  background: linear-gradient(to right, gold, purple, gold, crimson, gold);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
