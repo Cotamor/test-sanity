@@ -8,7 +8,7 @@ const Navbar = async () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Edasaki
+        <span className="gradient_hawaii">Edasaki</span>
       </Link>
       <div className={styles.links}>
         {pages.map((page) => (
